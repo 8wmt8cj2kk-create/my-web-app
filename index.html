@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>重定向中...</title>
     <script>
-        window.location.href = 'welcome.html';
+            // 检查登录状态并跳转
+            const isLoggedIn = sessionStorage.getItem('isLoggedIn') === 'true';
+            if (isLoggedIn) {
+                window.location.href = 'chat.html';
+            } else {
+                window.location.href = 'login.html';
+            }
     </script>
 </head>
 <body>
