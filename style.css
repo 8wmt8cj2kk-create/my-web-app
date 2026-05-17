@@ -1,0 +1,755 @@
+/* 全局重置 - 防止滚动 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    font-family: 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+}
+
+/* 所有主要容器都使用视口高度 */
+.container,
+.login-container,
+.dashboard-container,
+.game-container {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 允许内容滚动，但不会双滚动条 */
+.game-area {
+    overflow: visible;
+}
+
+/* 弹球游戏画布自适应 */
+#gameCanvas {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* ========== 全局样式 ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* ========== 首页样式 ========== */
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 14px 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #444;
+    transform: translateY(-2px);
+}
+
+/* ========== 登录页面样式 ========== */
+.login-container,
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.login-card,
+.dashboard-card {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    width: 420px;
+    max-width: 90%;
+}
+
+.login-card h1,
+.dashboard-card h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #222;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #222;
+    box-shadow: 0 0 0 2px rgba(34,34,34,0.1);
+}
+
+.checkbox-group {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #222;
+}
+
+.checkbox-group label {
+    color: #555;
+    cursor: pointer;
+}
+
+.btn-login {
+    width: 100%;
+    background: #222;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background: #444;
+}
+
+.error-msg {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.back-link a:hover {
+    color: #222;
+}
+
+/* ========== 登录后主页样式 ========== */
+.dashboard-card {
+    text-align: center;
+}
+
+.dashboard-card h1 {
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    color: #555;
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.dashboard-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #ccc;
+}
+
+.btn-danger {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-danger:hover {
+    background: #b71c1c;
+}
+/* ========== 游戏页面样式 ========== */
+.game-container {
+    min-height: 100vh;
+    background: #f5f5f5;
+    padding: 40px 20px;
+}
+
+.game-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.game-wrapper h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.game-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    cursor: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 12px;
+}
+
+.score-box, .lives-box {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+.score-box span, .lives-box span {
+    color: #d32f2f;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.btn-reset {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-reset:hover {
+    background: #444;
+    transform: scale(1.02);
+}
+
+.game-controls {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 12px;
+}
+
+.game-controls p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* ========== 游戏登录提示 ========== */
+.login-required {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-warning {
+    text-align: center;
+    padding: 60px;
+    background: #f9f9f9;
+    border-radius: 16px;
+}
+
+.login-warning p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* ========== 首页用户信息 ========== */
+.user-info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.user-welcome {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    background: #f0f0f0;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.btn-logout-small {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.btn-logout-small:hover {
+    background: #b71c1c;
+}
+
+/* ========== 全局设置按钮 ========== */
+.gear-settings {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.gear-icon {
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    font-size: 24px;
+}
+
+.gear-icon:hover {
+    transform: rotate(30deg);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* 设置菜单面板 */
+.settings-menu {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 320px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    z-index: 1001;
+    overflow: hidden;
+    animation: slideIn 0.2s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.settings-header {
+    padding: 20px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.settings-header h3 {
+    margin: 0;
+    color: #222;
+    font-size: 18px;
+}
+
+.settings-items {
+    padding: 10px 0;
+}
+
+.settings-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.settings-item:hover {
+    background: #f5f5f5;
+}
+
+.settings-item .icon {
+    font-size: 20px;
+    width: 32px;
+    text-align: center;
+}
+
+.settings-item .text {
+    flex: 1;
+    font-size: 15px;
+    color: #333;
+}
+
+.settings-item .arrow {
+    color: #999;
+    font-size: 14px;
+}
+
+.settings-divider {
+    height: 1px;
+    background: #eee;
+    margin: 8px 0;
+}
+
+.danger-item {
+    color: #d32f2f;
+}
+
+.danger-item .text {
+    color: #d32f2f;
+}
+
+/* 遮罩层 */
+.settings-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 999;
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 弹窗样式 */
+.modal-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    z-index: 1002;
+    overflow: hidden;
+    animation: modalIn 0.2s ease;
+}
+
+@keyframes modalIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.modal-header {
+    padding: 20px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: #222;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.modal-body input:focus {
+    outline: none;
+    border-color: #222;
+}
+
+.modal-footer {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px 20px 20px;
+}
+
+.modal-footer button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.modal-confirm {
+    background: #222;
+    color: white;
+}
+
+.modal-confirm:hover {
+    background: #444;
+}
+
+.modal-cancel {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.modal-cancel:hover {
+    background: #e0e0e0;
+}
+
+.avatar-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    background: #222;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+/* ========== 登录/注册标签 ========== */
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.tab-btn {
+    flex: 1;
+    background: none;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s;
+    color: #666;
+}
+
+.tab-btn.active {
+    background: #222;
+    color: white;
+}
+
+.tab-btn:hover:not(.active) {
+    background: #f0f0f0;
+}
+
+.form-container h1 {
+    margin-bottom: 25px;
+}
+
+/* ========== 头像设置弹窗样式 ========== */
+.avatar-settings .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.avatar-option:hover {
+    transform: scale(1.05);
+}
+
+/* 修复齿轮按钮被遮挡 */
+.gear-settings {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999 !important;
+}
+
+.gear-icon {
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    font-size: 24px;
+    z-index: 9999 !important;
+    position: relative;
+}
+
+/* 确保设置菜单在最上层 */
+.settings-menu {
+    z-index: 10000 !important;
+}
+
+.settings-overlay {
+    z-index: 9998 !important;
+}
+
+/* 右上角齿轮按钮 - 强制在最上层 */
+.gear-settings {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    z-index: 99999 !important;
+    display: block !important;
+}
+
+.gear-icon {
+    width: 48px !important;
+    height: 48px !important;
+    background: white !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+    font-size: 24px !important;
+    transition: all 0.3s ease !important;
+}
+
+.gear-icon:hover {
+    transform: rotate(30deg) !important;
+    background: #f0f0f0 !important;
+}

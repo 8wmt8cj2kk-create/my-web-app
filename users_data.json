@@ -1,0 +1,892 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "123",
+    "nickname": "管理员",
+    "avatar": "🤖",
+    "role": "admin",
+    "status": "active",
+    "banUntil": 0,
+    "banReason": "",
+    "score": 400,
+    "notes": "",
+    "createdAt": 1778935415.9018643,
+    "shooting_score": 40,
+    "brick_score": 400,
+    "messages": {
+      "group_general": [
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "在？",
+          "time": "21:55:07"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "在？",
+          "time": "21:55:07"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "在的在的",
+          "time": "22:18:30"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "你谁啊",
+          "time": "22:18:56"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "你谁啊",
+          "time": "22:18:56"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "哈啊",
+          "time": "22:22:12"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778941201.png",
+          "text": "士大夫",
+          "time": "22:22:25"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778941201.png",
+          "text": "士大夫",
+          "time": "22:22:25"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "yuyu",
+          "time": "22:36:47"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "手动阀",
+          "time": "22:37:02"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "手动阀",
+          "time": "22:37:02"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "那时候",
+          "time": "22:36:58"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "***&**",
+          "time": "22:37:18"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "***&**",
+          "time": "22:37:18"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "00909哎单身狗i按设定程序框架比哦迫使敌人了解股票vnp",
+          "time": "22:37:22"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "00909哎单身狗i按设定程序框架比哦迫使敌人了解股票vnp",
+          "time": "22:37:22"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "爱的方式",
+          "time": "22:48:59"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "爱的方式",
+          "time": "22:48:59"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "；空间哦",
+          "time": "22:49:03"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "；空间哦",
+          "time": "22:49:03"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "阿斯蒂芬",
+          "time": "23:06:40",
+          "timestamp": 1778944000891
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "111",
+          "time": "23:07:23",
+          "timestamp": 1778944043520
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "hello",
+          "time": "23:07:16",
+          "timestamp": 1778944036149
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "HI",
+          "time": "23:07:26",
+          "timestamp": 1778944046337
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "fine thank有",
+          "time": "23:07:30",
+          "timestamp": 1778944050801
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "What are you doing?",
+          "time": "23:07:47",
+          "timestamp": 1778944067239
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eating",
+          "time": "23:07:46",
+          "timestamp": 1778944066667
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eg g",
+          "time": "23:07:49",
+          "timestamp": 1778944069647
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "fashing",
+          "time": "23:08:02",
+          "timestamp": 1778944082797
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "want eat dog",
+          "time": "23:08:02",
+          "timestamp": 1778944082997
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "play game",
+          "time": "23:08:19",
+          "timestamp": 1778944099445
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "/avatars/你好_1778944130.png",
+          "text": "d",
+          "time": "23:08:58",
+          "timestamp": 1778944138738
+        }
+      ],
+      "mynotes": [
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "你猜",
+          "time": "10:50:40",
+          "timestamp": 1778986240960
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "🤖",
+          "text": "sadf",
+          "time": "12:57:34",
+          "timestamp": 1778993854787
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "🤖",
+          "text": "sadf",
+          "time": "12:57:49",
+          "timestamp": 1778993869654
+        }
+      ]
+    }
+  },
+  "yeshi": {
+    "username": "yeshi",
+    "password": "1234",
+    "nickname": "也是2",
+    "avatar": "😀",
+    "role": "user",
+    "status": "active",
+    "banUntil": 0,
+    "banReason": "",
+    "score": 400,
+    "notes": "不要太晚",
+    "createdAt": 1778937901.860853,
+    "shooting_score": 20,
+    "brick_score": 400,
+    "messages": {
+      "group_general": [
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "在？",
+          "time": "21:55:07"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "在的在的",
+          "time": "22:18:30"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "你谁啊",
+          "time": "22:18:56"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "哈啊",
+          "time": "22:22:12"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778941201.png",
+          "text": "士大夫",
+          "time": "22:22:25"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "yuyu",
+          "time": "22:36:47"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "手动阀",
+          "time": "22:37:02"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "那时候",
+          "time": "22:36:58"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "***&**",
+          "time": "22:37:18"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "00909哎单身狗i按设定程序框架比哦迫使敌人了解股票vnp",
+          "time": "22:37:22"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "爱的方式",
+          "time": "22:48:59"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "；空间哦",
+          "time": "22:49:03"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "阿斯蒂芬",
+          "time": "23:06:40",
+          "timestamp": 1778944000891
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "111",
+          "time": "23:07:23",
+          "timestamp": 1778944043520
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "hello",
+          "time": "23:07:16",
+          "timestamp": 1778944036149
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "HI",
+          "time": "23:07:26",
+          "timestamp": 1778944046337
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "fine thank有",
+          "time": "23:07:30",
+          "timestamp": 1778944050801
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "What are you doing?",
+          "time": "23:07:47",
+          "timestamp": 1778944067239
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eating",
+          "time": "23:07:46",
+          "timestamp": 1778944066667
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eg g",
+          "time": "23:07:49",
+          "timestamp": 1778944069647
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "fashing",
+          "time": "23:08:02",
+          "timestamp": 1778944082797
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "want eat dog",
+          "time": "23:08:02",
+          "timestamp": 1778944082997
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "play game",
+          "time": "23:08:19",
+          "timestamp": 1778944099445
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "/avatars/你好_1778944130.png",
+          "text": "d",
+          "time": "23:08:58",
+          "timestamp": 1778944138738
+        }
+      ]
+    }
+  },
+  "你好": {
+    "username": "你好",
+    "password": "abc",
+    "nickname": "abca",
+    "avatar": "/avatars/你好_1778944130.png",
+    "role": "user",
+    "status": "active",
+    "banUntil": 0,
+    "banReason": "",
+    "score": 0,
+    "notes": "不要太早来",
+    "createdAt": 1778938319.8774781,
+    "messages": {
+      "group_general": [
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "在？",
+          "time": "21:55:07"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "在的在的",
+          "time": "22:18:30"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "在的在的",
+          "time": "22:18:30"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "👤",
+          "text": "你谁啊",
+          "time": "22:18:56"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "哈啊",
+          "time": "22:22:12"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778941201.png",
+          "text": "士大夫",
+          "time": "22:22:25"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "yuyu",
+          "time": "22:36:47"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "手动阀",
+          "time": "22:37:02"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "那时候",
+          "time": "22:36:58"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "***&**",
+          "time": "22:37:18"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "00909哎单身狗i按设定程序框架比哦迫使敌人了解股票vnp",
+          "time": "22:37:22"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "爱的方式",
+          "time": "22:48:59"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "；空间哦",
+          "time": "22:49:03"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "阿斯蒂芬",
+          "time": "23:06:40",
+          "timestamp": 1778944000891
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "111",
+          "time": "23:07:23",
+          "timestamp": 1778944043520
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "hello",
+          "time": "23:07:16",
+          "timestamp": 1778944036149
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "HI",
+          "time": "23:07:26",
+          "timestamp": 1778944046337
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "fine thank有",
+          "time": "23:07:30",
+          "timestamp": 1778944050801
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "What are you doing?",
+          "time": "23:07:47",
+          "timestamp": 1778944067239
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eating",
+          "time": "23:07:46",
+          "timestamp": 1778944066667
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eg g",
+          "time": "23:07:49",
+          "timestamp": 1778944069647
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "fashing",
+          "time": "23:08:02",
+          "timestamp": 1778944082797
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "want eat dog",
+          "time": "23:08:02",
+          "timestamp": 1778944082997
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "play game",
+          "time": "23:08:19",
+          "timestamp": 1778944099445
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "/avatars/你好_1778944130.png",
+          "text": "d",
+          "time": "23:08:58",
+          "timestamp": 1778944138738
+        }
+      ]
+    },
+    "friends": [
+      "orgen"
+    ]
+  },
+  "orgen": {
+    "username": "orgen",
+    "password": "1234@abcd",
+    "nickname": "一只苦橙汁",
+    "avatar": "/avatars/default.png",
+    "uid": 1,
+    "role": "user",
+    "status": "active",
+    "banUntil": 0,
+    "banReason": "",
+    "brick_score": 0,
+    "shooting_score": 0,
+    "notes": "",
+    "friends": [
+      "你好"
+    ],
+    "friendRequests": [],
+    "createdAt": 1778941312.0601816,
+    "messages": {
+      "group_general": [
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "哈啊",
+          "time": "22:22:12"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "哈啊",
+          "time": "22:22:12"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778941201.png",
+          "text": "士大夫",
+          "time": "22:22:25"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "yuyu",
+          "time": "22:36:47"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "yuyu",
+          "time": "22:36:47"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "手动阀",
+          "time": "22:37:02"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "那时候",
+          "time": "22:36:58"
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "那时候",
+          "time": "22:36:58"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "***&**",
+          "time": "22:37:18"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "00909哎单身狗i按设定程序框架比哦迫使敌人了解股票vnp",
+          "time": "22:37:22"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "爱的方式",
+          "time": "22:48:59"
+        },
+        {
+          "sender": "admin",
+          "senderNickname": "管理员",
+          "avatar": "/avatars/admin_1778942172.png",
+          "text": "；空间哦",
+          "time": "22:49:03"
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "阿斯蒂芬",
+          "time": "23:06:40",
+          "timestamp": 1778944000891
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "111",
+          "time": "23:07:23",
+          "timestamp": 1778944043520
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "hello",
+          "time": "23:07:16",
+          "timestamp": 1778944036149
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "HI",
+          "time": "23:07:26",
+          "timestamp": 1778944046337
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "fine thank有",
+          "time": "23:07:30",
+          "timestamp": 1778944050801
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "What are you doing?",
+          "time": "23:07:47",
+          "timestamp": 1778944067239
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eating",
+          "time": "23:07:46",
+          "timestamp": 1778944066667
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "eg g",
+          "time": "23:07:49",
+          "timestamp": 1778944069647
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "fashing",
+          "time": "23:08:02",
+          "timestamp": 1778944082797
+        },
+        {
+          "sender": "orgen",
+          "senderNickname": "一只苦橙汁",
+          "avatar": "/avatars/default.png",
+          "text": "want eat dog",
+          "time": "23:08:02",
+          "timestamp": 1778944082997
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "👤",
+          "text": "play game",
+          "time": "23:08:19",
+          "timestamp": 1778944099445
+        },
+        {
+          "sender": "你好",
+          "senderNickname": "abca",
+          "avatar": "/avatars/你好_1778944130.png",
+          "text": "d",
+          "time": "23:08:58",
+          "timestamp": 1778944138738
+        }
+      ]
+    }
+  }
+}

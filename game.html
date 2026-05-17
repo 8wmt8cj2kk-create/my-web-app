@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>弹球小游戏</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 游戏专用样式 */
+        .game-container {
+            min-height: 100vh;
+            background: #f5f5f5;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .game-wrapper {
+            max-width: 100%;
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .game-wrapper h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .game-area {
+            text-align: center;
+        }
+        
+        #gameCanvas {
+            background: #1a1a1a;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            width: 100%;
+            height: auto;
+            cursor: none;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .game-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 15px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 12px;
+        }
+        
+        .score-box, .lives-box {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+        }
+        
+        .score-box span, .lives-box span {
+            color: #d32f2f;
+            font-size: 22px;
+            margin-left: 8px;
+        }
+        
+        .btn-reset {
+            background: #222;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            font-size: 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-reset:hover {
+            background: #444;
+        }
+        
+        /* 手机控制按钮 */
+        .mobile-controls {
+            display: none;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .ctrl-btn {
+            width: 70px;
+            height: 70px;
+            background: #222;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 36px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: all 0.1s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .ctrl-btn:active {
+            transform: scale(0.95);
+            background: #444;
+        }
+        
+        .game-controls {
+            text-align: center;
+            margin: 15px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 12px;
+        }
+        
+        .game-controls p {
+            color: #666;
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        
+        .back-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .back-link a {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .login-required {
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .login-warning {
+            text-align: center;
+            padding: 40px;
+            background: #f9f9f9;
+            border-radius: 16px;
+        }
+        
+        .login-warning p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        /* 手机端适配 */
+        @media (max-width: 768px) {
+            .mobile-controls {
+                display: flex;
+            }
+            .game-wrapper {
+                padding: 15px;
+            }
+            .ctrl-btn {
+                width: 60px;
+                height: 60px;
+                font-size: 30px;
+            }
+            .game-info {
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-wrapper">
+            <h1>⚡ 弹球小游戏</h1>
+            
+            <div id="loginRequired" class="login-required" style="display: none;">
+                <div class="login-warning">
+                    <p>🔒 需要登录才能玩游戏</p>
+                    <button id="goToLoginFromGame" class="btn-primary">前往登录</button>
+                </div>
+            </div>
+
+            <div id="gameArea" style="display: none;">
+                <div class="game-area">
+                    <canvas id="gameCanvas" width="800" height="500"></canvas>
+                </div>
+                <div class="game-info">
+                    <div class="score-box">得分：<span id="score">0</span></div>
+                    <div class="lives-box">生命：<span id="lives">3</span></div>
+                    <button id="resetGameBtn" class="btn-reset">重新开始</button>
+                </div>
+                <!-- 手机端左右控制按钮 -->
+                <div class="mobile-controls">
+                    <button id="leftCtrl" class="ctrl-btn">◀</button>
+                    <button id="rightCtrl" class="ctrl-btn">▶</button>
+                </div>
+                <div class="game-controls">
+                    <p>🎮 鼠标移动 / 手指滑动 / 左右按钮 控制挡板</p>
+                    <p>💥 撞碎砖块得分，球掉底边扣1命</p>
+                </div>
+            </div>
+
+            <div class="back-link">
+                <a href="index.html">← 返回首页</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="settings.js"></script>
+</body>
+</html>
